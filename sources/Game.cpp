@@ -49,7 +49,7 @@ namespace ariel{
             }
             this->win= in;
         }
-        else if(in->get_points() < in->get_points()){
+        else if(out->get_points() < in->get_points()){
             this->out->the_wins += 1;
             this->in->the_losses += 1;
             points_out += 1;
